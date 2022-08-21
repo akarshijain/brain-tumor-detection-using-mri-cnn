@@ -1,12 +1,12 @@
-# Brain-tumor-Detection-using-CNN
-In this project, I have tried to make a Convolutional Neural Network to accurately classify whether a given MRI scan of a brain is tumorous or not. The dataset has been dowloaded from kaggle and can be found [here](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection).
+# Brain Tumor Detection Using MRI
+In this project, Convolutional Neural Network has been used to classify whether a given MRI scan of a brain is tumorous or not. The dataset has been dowloaded from kaggle and can be found [here](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection).
 
 ## About the data
 The dataset contains 2 folders: yes and no which contains 253 Brain MRI Images. The folder yes contains 155 Brain MRI Images that are tumorous and the folder no contains 98 Brain MRI Images that are non-tumorous.
 
 ## Data Augmentation
 
-Since the dataset I have with me is insufficient for training our network, I have used Data Augmentation to expand our dataset and hence, enhance the training phase. The code for the data augmentation has already been provided in the notebook 'Brain_tumor_detection'. I have already run the code for that, so no need to run it again. 
+Since the dataset is insufficient for training the network, data augmentation has been used to expand the dataset and hence, enhance the training phase.
 
 ## Model architecture
 
